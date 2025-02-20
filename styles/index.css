@@ -1,0 +1,238 @@
+/* ----- SECTION ONE ----- */
+
+#section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 90vh;
+    background-image: 
+        linear-gradient(to top, #1f201e 0%, rgba(31, 32, 30, 0) 40%), 
+        url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+#section-one .content-left h1{
+    font-family: var(--font-title);
+    color: var(--white);
+}
+
+#section-one .content-left h2{
+    font-size: 55px;
+    font-family: var(--font-title);
+    color: var(--white);
+}
+
+#section-one .content-left p{
+    color: var(--white);
+}
+
+#section-one .btn-contact-us{
+    margin-top: 45px;
+}
+
+#section-one .btn-contact-us a{
+    background-color: var(--primary);
+    color: var(--black);
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: 0.4s;
+}
+
+#section-one .btn-contact-us a:hover{
+    margin-left: 30px;
+}
+
+#section-one .btn-contact-us i{
+    margin-left: 7px;
+    font-size: 17px;
+    color: var(--black);
+}
+
+#section-one .arrow{
+    margin-top: 65px;
+}
+
+#section-one .arrow i {
+    font-size: 35px;
+    animation: upDown 1.5s infinite alternate ease-in-out;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(40px);
+    }
+}
+
+
+/* ----- SECTION TWO ----- */
+
+#section-two{
+    padding: 140px 0;
+    background-color: var(--black);
+}
+
+#section-two .content-sec-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#section-two .content-left img{
+    height: 400px;
+    width: 300px;;
+}
+
+#section-two .content-right h2{
+    color: var(--primary);
+    font-family: var(--font-title);
+}
+
+#section-two .btn-know-more{
+    margin-top: 45px;
+}
+
+#section-two .btn-know-more a{
+    background-color: var(--primary);
+    color: var(--black);
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: 0.4s;
+}
+
+#section-two .btn-know-more a:hover{
+    margin-left: 30px;
+    background-color: var(--secondary);
+}
+
+#section-two .btn-know-more i{
+    margin-left: 7px;
+    font-size: 17px;
+    color: var(--black);
+}
+
+/* ----- SECTION THREE ----- */
+
+#section-three{
+    padding: 100px 0;
+    background-color: var(--black-bg);
+}
+
+#section-three .content-sec-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#section-three .content-left h2{
+    color: var(--primary);
+    font-family: var(--font-title);
+}
+
+#section-three .content-left h3{
+    color: var(--primary);
+    font-family: var(--font-title);
+    margin: 30px 0;
+}
+
+#section-three .accordion-item {
+    width: 100%;
+    margin: 15px 0;
+}
+
+#section-three .accordion-header {
+    background: var(--primary);
+    color: var(--black);
+    padding: 15px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-three .accordion-header:hover {
+    background: var(--secondary);
+}
+
+#section-three .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    padding: 0px 15px;
+    background: var(--black);
+}
+
+#section-three .accordion-content p {
+    margin-bottom: 25px;
+}
+
+#section-three .icon {
+    transition: transform 0.3s;
+    color: var(--black-bg);
+    font-size: 20px;
+}
+#section-three .accordion-header.active .icon {
+    transform: rotate(90deg);
+}
+
+#section-three .btn-contact-us{
+    margin-top: 45px;
+}
+
+#section-three .btn-contact-us a{
+    background-color: var(--primary);
+    color: var(--black);
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: 0.4s;
+}
+
+#section-three .btn-contact-us a:hover{
+    margin-left: 30px;
+    background-color: var(--secondary);
+}
+
+#section-three .btn-contact-us i{
+    margin-left: 7px;
+    font-size: 17px;
+    color: var(--black);
+}
+
+#section-three .content-right img{
+    height: 600px;
+    transition: 0.4s;
+}
+
+#section-three .content-right img:hover{
+    transform: translate(10px, -30px);
+}
+
+/* ----- SECTION FOUR ----- */
+
+#section-four{
+    padding: 100px 0;
+    background-color: var(--black);
+}
+
+#section-four .content-sec-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#section-four .content-left{
+
+}
+
