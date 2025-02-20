@@ -14,6 +14,7 @@ include "settings/settings.php";
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../<?php echo $url ?>/styles/index.css">
     <script src="../<?php echo $url ?>/js/menu.js" defer></script>
+    <script src="../<?php echo $url ?>/js/header.js" defer></script>
     <title><?php echo $nome_empresa . ' - ' . $slogan ?></title>
 </head>
 
@@ -25,12 +26,12 @@ include "settings/settings.php";
                 <span id="hamburger"></span>
             </button>
             <ul id="menu" role="menu">
-                <li><a href="#section-one">COMENZAR</a></li>
-                <li><a href="#section-two">EN</a></li>
-                <li><a href="#section-three">EL TEQUILA</a></li>
-                <li><a href="#section-four">MIXOLOGÍA Y RECETAS</a></li>
-                <li><a href="#section-five">DÓNDE COMPRAR</a></li>
-                <li><a href="#section-six">CONTACTO</a></li>
+                <li><a title="Haga clic aquí para ser dirigido al principio" href="#section-one">COMENZAR</a></li>
+                <li><a title="Haga clic aquí para ser dirigido a la sección ACERCA DE" href="#section-two">EN</a></li>
+                <li><a title="Haga clic aquí para ser dirigido a la sesión de TEQUILA" href="#section-three">EL TEQUILA</a></li>
+                <li><a title="Haga clic aquí para ser dirigido a la sesión de COCTELERÍA Y RECETAS" href="#section-four">MIXOLOGÍA Y RECETAS</a></li>
+                <li><a title="Haga clic aquí para ser dirigido a la sección DONDE COMPRAR" href="#section-five">DÓNDE COMPRAR</a></li>
+                <li><a title="Haga clic aquí para ser dirigido a la sesión de CONTACTO" href="#section-six">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -42,12 +43,12 @@ include "settings/settings.php";
                         <div class="content-left">
                             <h1>EL TEQUILA BLANCO</h1>
                             <h2>EL TEQUILA DE UNA REVOLUCIÓN</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempore repudiandae corrupti sunt libero aut corporis repellendus, suscipit facilis in optio, necessitatibus officiis ipsa officia esse molestias totam iusto? Sapiente?</p>
+                            <p>Un tequila premium que honra la historia, la tradición y la pasión de México. Destilado artesanalmente en Jalisco, cada sorbo es un tributo a la independencia y al espíritu inquebrantable de un pueblo.</p>
                             <div class="btn-contact-us">
                                 <a title="Haga clic aquí para contactarnos vía WhatsApp" href="<?php echo $info[1]['link_wpp'] ?>">CONTÁCTENOS <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                             <div class="arrow">
-                                <i class="fa-solid fa-angles-down"></i>
+                                <a title="Haga clic aquí para ser dirigido a la sección Acerca de" href="#section-two"><i class="fa-solid fa-angles-down"></i></a>
                             </div>
                         </div>
                     </div>
@@ -70,8 +71,12 @@ include "settings/settings.php";
                     <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <div class="content-right">
-                            <h2>NUESTRA HISTORIA</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic mollitia sapiente incidunt beatae porro, dicta impedit in ut, repellat et ducimus sit maiores excepturi nemo similique eligendi nihil, recusandae ad vitae? Doloribus reiciendis expedita qui nisi eum aliquid quo temporibus velit harum numquam corrupti libero fugit molestias accusamus tempora nesciunt soluta atque quisquam, dolor dicta. Nesciunt necessitatibus accusantium ab. Voluptatum laudantium tempore minus accusamus omnis fuga placeat sunt excepturi explicabo numquam nobis neque reprehenderit mollitia, aliquam quaerat, sapiente at sed rem illo. Doloremque nulla blanditiis repellat doloribus maiores reprehenderit vel mollitia at rerum animi est nisi dolores ex dolor praesentium, tempora aliquam. Enim ipsam aliquam hic repellendus esse laborum mollitia a non incidunt quidem minima sequi exercitationem ad nulla et cupiditate quasi, ullam dolorum, nesciunt aliquid recusandae vel cum dicta consectetur! Doloribus voluptate rerum unde. Quam ipsam iusto quisquam repellendus.</p>
+                            <h2>LA HISTORIA DE DOÑA JOSEFA Y SU INFLUENCIA</h2>
+                            <p>Inspirada en la valentía y determinación de Doña Josefa Ortiz de Domínguez, una figura clave en la independencia de México, nuestra marca rinde homenaje a su legado de lucha y libertad. Al igual que ella desafió el destino y encendió la chispa de la independencia, nuestro tequila encarna ese mismo espíritu indomable, transformando cada sorbo en un tributo a la historia y la tradición mexicana.</p>
+                            <h3>CULTURA Y TRADICIÓN DEL TEQUILA</h3>
+                            <p>El tequila es mucho más que una bebida; es un símbolo de identidad y orgullo para México. En Doña Josefa, seguimos las técnicas ancestrales de producción, respetando cada etapa del proceso para garantizar un tequila auténtico y excepcional. Desde la cuidadosa selección de los agaves en las tierras fértiles de Jalisco hasta la destilación artesanal, cada botella cuenta una historia de pasión y dedicación.</p>
+                            <h3>CONEXIÓN CON LA INDEPENDENCIA DE MÉXICO</h3>
+                            <p>Así como la independencia marcó un nuevo comienzo para la nación, Doña Josefa representa la unión entre el pasado y el presente. Nuestro tequila no solo honra la historia de una mujer visionaria, sino que también invita a quienes lo degustan a celebrar la libertad, la cultura y la riqueza de México. Cada gota es un recordatorio del coraje y la perseverancia que forjaron el destino de un país.</p>
                             <div class="btn-know-more">
                                 <a title="Haga clic aquí para contactarnos vía WhatsApp" href="<?php echo $info[1]['link_wpp'] ?>">PONTE EN CONTACTO <i class="fa-brands fa-whatsapp"></i></a>
                             </div>
@@ -85,32 +90,38 @@ include "settings/settings.php";
                 <div class="content-sec-three">
                     <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
                         <div class="content-left">
-                            <h2>TEQUILA: TRADICIÓN, SABOR Y ARTE EN CADA GOTA</h2>
-                            <p>Cada botella de tequila lleva consigo la riqueza del terruño de Jalisco, donde campos de agave azul se extienden bajo el abrasador sol mexicano. Cultivada con dedicación y cosechada en el momento perfecto, la planta da lugar a una bebida que combina tradición, sabor y autenticidad.</p>
-                            <p>El proceso de producción artesanal comienza con la cuidadosa selección de los mejores agaves, cocidos lentamente en hornos de piedra para extraer sus azúcares naturales. La fermentación se realiza de forma controlada, respetando el tiempo necesario para desarrollar sabores únicos, y la destilación en pequeños lotes garantiza un tequila puro y refinado.</p>
+                            <h2>LA ESENCIA DEL TEQUILA ARTESANAL</h2>
+                            <p>Doña Josefa es un tributo al auténtico tequila mexicano. Elaborado con agave azul de Jalisco, cada botella refleja tradición, calidad y pasión. Nuestro proceso de producción sigue métodos artesanales que garantizan una bebida de excelencia, conservando la pureza y riqueza de sus sabores. Desde la selección cuidadosa de los agaves hasta su maduración en barricas de roble, cada etapa está pensada para honrar la herencia mexicana.</p>
                             <h3>NUESTROS PRODUCTOS</h3>
                             <div class="accordion-item">
                                 <div class="accordion-header">TEQUILA BLANCO <i class="fa-solid fa-angle-right icon"></i></div>
                                 <div class="accordion-content">
-                                    <p>Puro y cristalino, Blanco es la expresión más auténtica del agave azul. Sin crianza en barrica, mantiene su frescura y notas vibrantes de cítricos y hierbas frescas. Ideal para cócteles o para disfrutar solo, destacando su suavidad y carácter vegetal.</p>
+                                    <p>El Tequila Blanco es la esencia pura del agave, sin proceso de añejamiento, lo que resalta su frescura y notas naturales.</p>
+                                    <p><strong>Notas de sabor:</strong> Cítricos, hierbas frescas y un sutil dulzor del agave.</p>
+                                    <p><strong>Ideal para:</strong> Cócteles como Margarita, Paloma o simplemente con lima y sal.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <div class="accordion-header">TEQUILA REPOSADO <i class="fa-solid fa-angle-right icon"></i></div>
                                 <div class="accordion-content">
-                                    <p>Reposado durante al menos seis meses en barricas de roble, Reposado logra un perfecto equilibrio entre el dulzor del agave y los sutiles toques de vainilla y caramelo. Su sofisticado sabor es perfecto para quienes buscan una experiencia más compleja, ya sea en bebidas refinadas o puras, en copa de degustación.</p>
+                                    <p>Reposado durante seis meses en barricas de roble, logra un balance entre la frescura del agave y los sutiles matices de la madera.</p>
+                                    <p><strong>Notas de sabor:</strong> Toques de vainilla, caramelo y especias suaves.</p>
+                                    <p><strong>Ideal para:</strong> Disfrutar solo, en las rocas o en cócteles sofisticados.</p>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <div class="accordion-header">TEQUILA AÑEJO <i class="fa-solid fa-angle-right icon"></i></div>
                                 <div class="accordion-content">
-                                    <p>Envejecido durante al menos un año, Añejo es la encarnación de la madurez y la sofisticación. Con profundas notas de chocolate, especias y madera tostada, ofrece una experiencia rica y atractiva. Es mejor disfrutarlo lentamente, como un buen licor añejo, permitiendo que cada capa de sabor se revele en el paladar.</p>
+                                    <p>Envejecido por más de un año en barricas de roble, desarrolla un sabor profundo y elegante, ideal para los paladares más exigentes.</p>
+                                    <p><strong>Notas de sabor:</strong> Chocolate amargo, roble tostado y frutos secos.</p>
+                                    <p><strong>Ideal para:</strong> Degustar solo en una copa de cristal, apreciando cada matiz de su complejidad.</p>
                                 </div>
                             </div>
-                            <h3>APRECIAR CADA DETALLE</h3>
-                            <p>Degustar tequila va más allá del gusto: es una experiencia sensorial completa. Antes de degustar, sostenga la copa y observe su color, especialmente en las versiones Reposado y Añejo, cuyos tonos dorados revelan su tiempo de maduración. Luego, acércalo a tu nariz e identifica los sutiles aromas de agave, notas cítricas, vainilla o roble, según la variedad.</p>
-                            <p>En el primer sorbo, deja que el líquido viaje lentamente por tu paladar, percibiendo su textura y complejidad de sabores. Blanco ofrece frescura y vivacidad, perfecto para cócteles o para disfrutar con un toque de limón y sal. Reposado, más equilibrado, marida bien con quesos curados y frutos secos. Añejo, con cuerpo y sofisticado, combina bien con postres a base de chocolate o incluso con un buen cigarro.</p>
-                            <p>Independientemente de la forma de consumo, cada trago de tequila lleva consigo la autenticidad de México, transformando cada momento en una celebración de la cultura y la tradición.</p>
+                            <h3>PROCESO ARTESANAL</h3>
+                            <p>Cada botella de Doña Josefa es el resultado de un meticuloso proceso artesanal. La cosecha manual del agave azul en los campos de Jalisco asegura la selección de las mejores plantas. Posteriormente, los corazones de agave son cocidos lentamente en hornos de piedra, extrayendo los azúcares esenciales para su fermentación</p>
+                            <p>La doble destilación en alambiques de cobre refina el tequila, resaltando su pureza y carácter único.</p>
+                            <p>Tras la destilación, cada tequila sigue un proceso de maduración específico que le otorga su personalidad única. El Blanco mantiene la frescura vibrante del agave, el Reposado adquiere suavidad y notas amaderadas, mientras que el Añejo desarrolla una complejidad profunda con sabores sofisticados.</p>
+                            <p>Doña Josefa es más que una bebida, es una experiencia que rinde homenaje a la historia y la cultura de México. Celebra la esencia de nuestro país en cada sorbo y sumérgete en la auténtica tradición del tequila artesanal.</p>
                             <div class="btn-contact-us">
                                 <a title="Haga clic aquí para contactarnos vía WhatsApp" href="<?php echo $info[1]['link_wpp']?>">DESCUBRE MÁS <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
@@ -128,24 +139,141 @@ include "settings/settings.php";
         <section id="section-four">
             <div class="container">
                 <div class="content-sec-four">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
                         <div class="content-left">
-                            <img class="img-responsive" src="../<?php echo $url?>/images/shot.png" alt="Tequila" title="Tequila">
+                            <img class="img-responsive" src="../<?php echo $url?>/images/shot-tequila.png" alt="Tequila" title="Tequila">
                         </div>
                     </div>
+                    <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                         <div class="content-right">
-                            
+                            <h2>EL ARTE DE CREAR CÓCTELES CON DONÃ JOSEFA</h2>
+                            <p>Descubre nuevas formas de disfrutar la auténtica tradición mexicana con nuestra selección especial de cócteles. Doña Josefa trae la esencia de la independencia de México a tu copa, transformando cada sorbo en una experiencia sofisticada e inolvidable.</p>
+                            <p>Ya sea para celebrar momentos especiales o simplemente explorar sabores auténticos, nuestras recetas han sido creadas para resaltar las notas distintivas de nuestros tequilas Blanco, Reposado y Añejo.</p>
+                            <h3>RECETAS EXCLUSIVAS</h3>
+                            <div class="accordion-item">
+                                <div class="accordion-header">LA INSURGENTE <i class="fa-solid fa-angle-right icon"></i></div>
+                                <div class="accordion-content">
+                                    <p>Ingredientes:</p>
+                                    <ul>
+                                        <li>50ml de Tequila Doña Josefa Blanco</li>
+                                        <li>25ml de jugo de limón</li>
+                                        <li>15ml de licor de naranja</li>
+                                        <li>10ml de jarabe de agave</li>
+                                        <li>Hielo</li>
+                                        <li>Sal para el borde del vaso</li>
+                                        <li>Rodaja de limón para decorar</li>
+                                    </ul>
+                                    <p>Modo de preparación:</p>
+                                    <ol>
+                                        <li>Pasa una rodaja de limón por el borde de un vaso y sumérgelo en sal.</li>
+                                        <li>En una coctelera, agrega el tequila, jugo de limón, licor de naranja, jarabe de agave y hielo.</li>
+                                        <li>Agita bien y cuela en el vaso preparado.</li>
+                                        <li>Decora con una rodaja de limón y disfruta.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">PÁSION MEXICANA <i class="fa-solid fa-angle-right icon"></i></div>
+                                <div class="accordion-content">
+                                <p>Ingredientes:</p>
+                                    <ul>
+                                        <li>50ml de Tequila Doña Josefa Reposado</li>
+                                        <li>30ml de jugo de maracuyá</li>
+                                        <li>20ml de miel de agave</li>
+                                        <li>15ml de licor de cassis</li>
+                                        <li>Hielo</li>
+                                        <li>Pimienta rosa para decorar</li>
+                                    </ul>
+                                    <p>Modo de preparación:</p>
+                                    <ol>
+                                        <li>En una coctelera, mezcla todos los ingredientes con hielo.</li>
+                                        <li>Agita bien y cuela en un vaso bajo con hielo.</li>
+                                        <li>Finaliza con unas cuantas pimientas rosas por encima.</li>
+                                        <li>Sirve y disfruta la combinación perfecta entre dulzura e intensidad del tequila.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <div class="accordion-header">ESPÍRITU DE JALISCO <i class="fa-solid fa-angle-right icon"></i></div>
+                                <div class="accordion-content">
+                                <p>Ingredientes:</p>
+                                    <ul>
+                                        <li>50ml de Tequila Doña Josefa Añejo</li>
+                                        <li>10ml de licor de café</li>
+                                        <li>10ml de vermut dulce</li>
+                                        <li>15ml de licor de cassis</li>
+                                        <li>Hielo</li>
+                                        <li>Cáscara de naranja para aromatizar</li>
+                                    </ul>
+                                    <p>Modo de preparación:</p>
+                                    <ol>
+                                        <li>Mezcla todos los ingredientes en un vaso mezclador con hielo.</li>
+                                        <li>Remueve suavemente por unos 15 segundos.</li>
+                                        <li>Cuela en un vaso bajo con hielo.</li>
+                                        <li>Finaliza con una cáscara de naranja torcida sobre la bebida para liberar sus aromas.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <h3>MARIDAJES PERFECTOS</h3>
+                            <p>Para una experiencia completa, prueba nuestros tequilas con platos que realcen sus sabores. Quesos curados, mariscos y chocolates oscuros son algunas sugerencias para crear combinaciones sorprendentes.</p>
+                            <p>Explora el auténtico arte de la mixología y lleva el espíritu de México a tu copa con Doña Josefa.</p>
+                            <div class="btn-contact-us">
+                                <a title="Haga clic aquí para contactarnos vía WhatsApp" href="<?php echo $info[1]['link_wpp']?>">HAGA SUS PREGUNTAS <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="section-five">
+
+        </section>
 
     </main>
     <footer>
-
-    </footer>
+    <div class="container">
+      <div class="content-footer">
+        <div class="col-lg-4 col-md-2 col-sm-12 col-xs-12">
+          <div class="logo-footer">
+            <a href="#section-one" title="Clique aqui para voltar ao início"><img class="img-responsive"
+                src="../<?php echo $url?>/images/logo-branco.png" alt="Logo" title="Clique aqui para voltar ao início"></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 list-1">
+          <h3>NAVEGAR POR</h3>
+          <ul>
+            <li><a title="Haga clic aquí para ser dirigido al principio" href="#section-one"><i
+                  class="fa-solid fa-chevron-right"></i>COMENZAR</a></li>
+            <li><a title="Haga clic aquí para ser dirigido a la sección ACERCA DE" href="#section-two"><i
+                  class="fa-solid fa-chevron-right"></i>EN</a></li>
+            <li><a title="Haga clic aquí para ser dirigido a la sección ACERCA DE" href="#section-three"><i
+                  class="fa-solid fa-chevron-right"></i>EL TEQUILA</a></li>
+            <li><a title="Haga clic aquí para ser dirigido a la sesión de COCTELERÍA Y RECETAS" href="#section-four"><i
+                  class="fa-solid fa-chevron-right"></i>MIXOLOGÍA Y RECETAS</a></li>
+            <li><a title="Haga clic aquí para ser dirigido a la sesión de COCTELERÍA Y RECETAS" href="#section-five"><i
+                  class="fa-solid fa-chevron-right"></i>DÓNDE COMPRAR</a></li>
+            <li><a title="Haga clic aquí para ser dirigido a la sesión de CONTACTO" href="#section-six"><i
+                  class="fa-solid fa-chevron-right"></i>CONTACTO</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 list-1">
+          <h3>CONTACTO</h3>
+          <ul>
+            <li><a title="Haga clic aquí para contactarnos vía WhatsApp"
+                href="<?php echo $info[1]['link_wpp']?>"><i
+                  class="fa-brands fa-whatsapp"></i><?php echo $info[1]['whatsapp']?></a></li>
+            <li><a title="Haga clic aquí para ser dirigido a Instagram"
+                href="<?php echo $instagram?>"><i
+                  class="fa-brands fa-instagram"></i><?php echo $user_instagram?></a></li>
+            <li><a title="Haga clic aquí para enviar un correo electrónico"
+                href="mailto:<?php echo $emailContato?>"><i
+                  class="fa-solid fa-envelope"></i><?php echo $emailContato?></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>

@@ -57,19 +57,29 @@ html {
 /* ----- HEADER ----- */
 
 header {
-  background-color: var(--black);
+  background-color: transparent; /* Inicialmente transparente */
   padding: 15px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed; /* Fixo no topo */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+header.scrolled {
+  background-color: var(--black-bg); /* Cor do fundo após rolar */
 }
 
 header img {
-  height: 70px;
+  height: 65px;
   transition: 0.4s;
 }
 
-header img:hover{
+header img:hover {
   transform: scale(1.1);
 }
 
@@ -171,4 +181,63 @@ ul{
     transform: rotate(-135deg);
     top: -7px;
   }
+}
+
+/* ----- FOOTER ----- */
+
+footer {
+  padding: 80px 0;
+  background-color: var(--black-bg);
+  border-top: 2px solid var(--primary);
+}
+
+footer .content-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer .logo-footer {
+  display: flex;
+  align-items: center;
+  height: 170px;
+}
+
+footer .logo-footer img {
+  width: 280px;
+}
+
+footer .content-footer ul {
+  padding: 0px !important;
+}
+
+footer .content-footer li {
+  list-style-type: none;
+}
+
+
+footer .content-footer h3 {
+  font-size: 18px;
+  color: var(--primary);
+  font-weight: 580;
+  font-family: var(--font-title);
+}
+
+footer .content-footer a {
+  font-size: 18px;
+  color: var(--white);
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
+}
+
+footer .content-footer a:hover {
+  color: var(--primary);
+}
+
+footer .content-footer i {
+  font-size: 14px;
+  color: var(--white);
+  text-decoration: none;
+  margin-right: 8px;
 }

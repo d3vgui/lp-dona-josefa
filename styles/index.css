@@ -6,7 +6,7 @@
     align-items: center;
     flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.466);
-    height: 90vh;
+    height: 120vh;
     background-image: 
         linear-gradient(to top, #1f201e 0%, rgba(31, 32, 30, 0) 40%), 
         url(../images/background.jpg);
@@ -24,7 +24,7 @@
 #section-one .content-left h2{
     font-size: 55px;
     font-family: var(--font-title);
-    color: var(--white);
+    color: var(--primary);
 }
 
 #section-one .content-left p{
@@ -96,6 +96,11 @@
     font-family: var(--font-title);
 }
 
+#section-two .content-right h3{
+    color: var(--primary);
+    font-family: var(--font-title);
+}
+
 #section-two .btn-know-more{
     margin-top: 45px;
 }
@@ -123,7 +128,7 @@
 
 #section-three{
     padding: 100px 0;
-    background-color: var(--black-bg);
+    background-color: var(--black);
 }
 
 #section-three .content-sec-three{
@@ -170,11 +175,20 @@
     overflow: hidden;
     transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
     padding: 0px 15px;
-    background: var(--black);
+    background: #e2ddc9;
 }
 
 #section-three .accordion-content p {
     margin-bottom: 25px;
+    color: var(--black);
+}
+
+#section-three .accordion-content strong {
+    color: var(--black);
+}
+
+#section-three .accordion-content li{
+    color: var(--black);
 }
 
 #section-three .icon {
@@ -222,7 +236,16 @@
 
 #section-four{
     padding: 100px 0;
-    background-color: var(--black);
+    background-color: #000000b2;
+    height: 90vh;
+    background-image: 
+        linear-gradient(to top, #1f201e 0%, rgba(31, 32, 30, 0) 40%), 
+        linear-gradient(to bottom, #1f201e 0%, rgba(31, 32, 30, 0) 40%), 
+        url(../images/bg-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
 }
 
 #section-four .content-sec-four{
@@ -232,7 +255,103 @@
     flex-wrap: wrap;
 }
 
-#section-four .content-left{
+#section-four .content-left img{
+    height: 500px;
+}
 
+#section-four .content-right h2{
+    font-family: var(--font-title);
+    color: var(--primary);
+}
+
+#section-four .content-right h3{
+    font-family: var(--font-title);
+    color: var(--primary);
+}
+
+#section-four .accordion-item {
+    width: 100%;
+    margin: 15px 0;
+}
+
+#section-four .accordion-header {
+    background: var(--primary);
+    color: var(--black);
+    padding: 15px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section-four .accordion-header:hover {
+    background: var(--secondary);
+}
+
+#section-four .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+    padding: 0px 15px;
+    background: #e2ddc9;
+}
+
+#section-four .accordion-content p {
+    font-weight: bold;
+    margin-bottom: 10;
+    color: var(--black);
+}
+
+#section-four .accordion-content li{
+    color: var(--black);
+}
+
+#section-four .accordion-content ul{
+    margin-bottom: 16px !important;
+}
+
+#section-four .accordion-content ol{
+    margin-bottom: 25px !important;
+}
+
+#section-four .icon {
+    transition: transform 0.3s;
+    color: var(--black-bg);
+    font-size: 20px;
+}
+#section-four .accordion-header.active .icon {
+    transform: rotate(90deg);
+}
+
+#section-four .btn-contact-us{
+    margin-top: 45px;
+}
+
+#section-four .btn-contact-us a{
+    background-color: var(--primary);
+    color: var(--black);
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: 0.4s;
+}
+
+#section-four .btn-contact-us a:hover{
+    margin-left: 30px;
+    background-color: var(--secondary);
+}
+
+#section-four .btn-contact-us i{
+    margin-left: 7px;
+    font-size: 17px;
+    color: var(--black);
+}
+
+/* ----- SECTION FIVE ----- */
+
+#section-five{
+    height: 100vh;
+    background-color: black;
 }
 
