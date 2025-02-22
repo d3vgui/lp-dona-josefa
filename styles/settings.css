@@ -57,21 +57,23 @@ html {
 /* ----- HEADER ----- */
 
 header {
-  background-color: transparent; /* Inicialmente transparente */
+  background-color: transparent;
   padding: 15px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed; /* Fixo no topo */
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
-  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
 }
 
 header.scrolled {
-  background-color: var(--black-bg); /* Cor do fundo após rolar */
+  background-color: var(--black-bg);
+  border-color: var(--primary);
 }
 
 header img {
@@ -121,14 +123,14 @@ ul{
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1050px) {
   #menu {
     display: block;
     position: absolute;
     width: 100%;
-    top: 100px;
+    top: 95px;
     right: 0px;
-    background: #e7e7e7;
+    background: var(--black-bg);
     transition: 0.6s;
     z-index: 1000;
     height: 0px;

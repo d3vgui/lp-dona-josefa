@@ -3,7 +3,7 @@ include "settings/settings.php";
 ?>
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,6 +13,7 @@ include "settings/settings.php";
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../<?php echo $url ?>/styles/index.css">
+    <link rel="stylesheet" href="../<?php echo $url ?>/styles/media.css">
     <script src="../<?php echo $url ?>/js/menu.js" defer></script>
     <script src="../<?php echo $url ?>/js/header.js" defer></script>
     <title><?php echo $nome_empresa . ' - ' . $slogan ?></title>
@@ -123,7 +124,7 @@ include "settings/settings.php";
                             <p>Tras la destilación, cada tequila sigue un proceso de maduración específico que le otorga su personalidad única. El Blanco mantiene la frescura vibrante del agave, el Reposado adquiere suavidad y notas amaderadas, mientras que el Añejo desarrolla una complejidad profunda con sabores sofisticados.</p>
                             <p>Doña Josefa es más que una bebida, es una experiencia que rinde homenaje a la historia y la cultura de México. Celebra la esencia de nuestro país en cada sorbo y sumérgete en la auténtica tradición del tequila artesanal.</p>
                             <div class="btn-contact-us">
-                                <a title="Haga clic aquí para contactarnos vía WhatsApp" href="<?php echo $info[1]['link_wpp']?>">DESCUBRE MÁS <i class="fa-solid fa-arrow-right"></i></a>
+                                <a title="Haga clic aquí para contactarnos vía WhatsApp" href="<?php echo $info[1]['link_wpp'] ?>">DESCUBRE MÁS <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +142,7 @@ include "settings/settings.php";
                 <div class="content-sec-four">
                     <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
                         <div class="content-left">
-                            <img class="img-responsive" src="../<?php echo $url?>/images/shot-tequila.png" alt="Tequila" title="Tequila">
+                            <img class="img-responsive" src="../<?php echo $url ?>/images/shot-tequila.png" alt="Tequila" title="Tequila">
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
@@ -176,7 +177,7 @@ include "settings/settings.php";
                             <div class="accordion-item">
                                 <div class="accordion-header">PÁSION MEXICANA <i class="fa-solid fa-angle-right icon"></i></div>
                                 <div class="accordion-content">
-                                <p>Ingredientes:</p>
+                                    <p>Ingredientes:</p>
                                     <ul>
                                         <li>50ml de Tequila Doña Josefa Reposado</li>
                                         <li>30ml de jugo de maracuyá</li>
@@ -197,7 +198,7 @@ include "settings/settings.php";
                             <div class="accordion-item">
                                 <div class="accordion-header">ESPÍRITU DE JALISCO <i class="fa-solid fa-angle-right icon"></i></div>
                                 <div class="accordion-content">
-                                <p>Ingredientes:</p>
+                                    <p>Ingredientes:</p>
                                     <ul>
                                         <li>50ml de Tequila Doña Josefa Añejo</li>
                                         <li>10ml de licor de café</li>
@@ -219,7 +220,7 @@ include "settings/settings.php";
                             <p>Para una experiencia completa, prueba nuestros tequilas con platos que realcen sus sabores. Quesos curados, mariscos y chocolates oscuros son algunas sugerencias para crear combinaciones sorprendentes.</p>
                             <p>Explora el auténtico arte de la mixología y lleva el espíritu de México a tu copa con Doña Josefa.</p>
                             <div class="btn-contact-us">
-                                <a title="Haga clic aquí para contactarnos vía WhatsApp" href="<?php echo $info[1]['link_wpp']?>">HAGA SUS PREGUNTAS <i class="fa-solid fa-arrow-right"></i></a>
+                                <a title="Haga clic aquí para contactarnos vía WhatsApp" href="<?php echo $info[1]['link_wpp'] ?>">HAGA SUS PREGUNTAS <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -227,53 +228,113 @@ include "settings/settings.php";
             </div>
         </section>
         <section id="section-five">
-
+            <div class="container">
+                <div class="text">
+                    <h2>¿DÓNDE COMPRAR?</h2>
+                    <p>Descubre dónde encontrar Doña Josefa y disfruta del auténtico sabor del tequila artesanal.</p>
+                </div>
+                <div class="content-sec-five">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="content-left">
+                            <h3>DISTRIBUIDORES Y REVENDEDORES</h3>
+                            <p>Nuestra red de distribuidores seleccionados garantiza que encuentres Doña Josefa en los mejores establecimientos. Explora nuestra lista de revendedores oficiales y adquiere tu tequila con confianza.</p>
+                                <a title="Haga clic aquí para acceder al revendedor" href="/">DISTRIBUIDOR <i class="fa-solid fa-arrow-right-long"></i></a>
+                                <a title="Haga clic aquí para acceder al revendedor" href="/">DISTRIBUIDOR <i class="fa-solid fa-arrow-right-long"></i></a>
+                                <a title="Haga clic aquí para acceder al revendedor" href="/">DISTRIBUIDOR <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <div class="content-mid">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.9279700321445!2d-46.53307582384921!3d-23.463062557989844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef543634eb5a9%3A0x1e9f1a64f74abdfb!2sGuarulhos%20Office%20Tower%20Empreendimento%20Im!5e0!3m2!1spt-BR!2sbr!4v1740247984973!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                        <div class="content-right">
+                            <h3>COMPRA ONLINE</h3>
+                            <p>Prefieres la comodidad de comprar desde casa? Visita nuestra tienda en línea y recibe Doña Josefa directamente en tu puerta. Haz clic en el enlace y elige tu botella favorita.</p>
+                            <a title="Haz clic aquí para acceder a nuestra tienda" href="/">VISITA NUESTRA TIENDA <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-six">
+            <div class="container">
+                <div class="content-sec-six">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div class="content-left">
+                                <h2>CONTACTO Y ALIANZAS</h2>
+                                <p>¿Quieres formar parte de la historia de Doña Josefa? Estamos abiertos a nuevas oportunidades de negocio y colaboraciones.</p>
+                                <h3>DISTRIBUIDORES Y REVENDEDORES</h3>
+                                <p>Si deseas ofrecer Doña Josefa en tu establecimiento, completa nuestro formulario y nos pondremos en contacto contigo. Únete a nuestra red de distribuidores y lleva el auténtico sabor del tequila artesanal a más personas.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                        <div class="content-right">
+                            <div class="content-form">
+                                <form id="contactForm">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" id="name" name="name" required placeholder="Introduce tu nombre">
+                                    <label for="phone">Teléfono:</label>
+                                    <input type="tel" id="phone" name="phone" pattern="\(\d{2}\) \d{5}-\d{4}" placeholder="(99) 99999-9999" required>
+                                    <label for="message">Mensaje:</label>
+                                    <textarea id="message" name="message" rows="4" required placeholder="Escribe tu mensaje aquí"></textarea>
+                                    <div class="btn-submit">
+                                        <button type="submit">PARA ENVIAR</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
     <footer>
-    <div class="container">
-      <div class="content-footer">
-        <div class="col-lg-4 col-md-2 col-sm-12 col-xs-12">
-          <div class="logo-footer">
-            <a href="#section-one" title="Clique aqui para voltar ao início"><img class="img-responsive"
-                src="../<?php echo $url?>/images/logo-branco.png" alt="Logo" title="Clique aqui para voltar ao início"></a>
-          </div>
+        <div class="container">
+            <div class="content-footer">
+                <div class="col-lg-4 col-md-2 col-sm-12 col-xs-12">
+                    <div class="logo-footer">
+                        <a href="#section-one" title="Clique aqui para voltar ao início"><img class="img-responsive"
+                                src="../<?php echo $url ?>/images/logo-branco.png" alt="Logo" title="Clique aqui para voltar ao início"></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 list-1">
+                    <h3>NAVEGAR POR</h3>
+                    <ul>
+                        <li><a title="Haga clic aquí para ser dirigido al principio" href="#section-one"><i
+                                    class="fa-solid fa-chevron-right"></i>COMENZAR</a></li>
+                        <li><a title="Haga clic aquí para ser dirigido a la sección ACERCA DE" href="#section-two"><i
+                                    class="fa-solid fa-chevron-right"></i>EN</a></li>
+                        <li><a title="Haga clic aquí para ser dirigido a la sección ACERCA DE" href="#section-three"><i
+                                    class="fa-solid fa-chevron-right"></i>EL TEQUILA</a></li>
+                        <li><a title="Haga clic aquí para ser dirigido a la sesión de COCTELERÍA Y RECETAS" href="#section-four"><i
+                                    class="fa-solid fa-chevron-right"></i>MIXOLOGÍA Y RECETAS</a></li>
+                        <li><a title="Haga clic aquí para ser dirigido a la sesión de COCTELERÍA Y RECETAS" href="#section-five"><i
+                                    class="fa-solid fa-chevron-right"></i>DÓNDE COMPRAR</a></li>
+                        <li><a title="Haga clic aquí para ser dirigido a la sesión de CONTACTO" href="#section-six"><i
+                                    class="fa-solid fa-chevron-right"></i>CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 list-1">
+                    <h3>CONTACTO</h3>
+                    <ul>
+                        <li><a title="Haga clic aquí para contactarnos vía WhatsApp"
+                                href="<?php echo $info[1]['link_wpp'] ?>"><i
+                                    class="fa-brands fa-whatsapp"></i><?php echo $info[1]['whatsapp'] ?></a></li>
+                        <li><a title="Haga clic aquí para ser dirigido a Instagram"
+                                href="<?php echo $instagram ?>"><i
+                                    class="fa-brands fa-instagram"></i><?php echo $user_instagram ?></a></li>
+                        <li><a title="Haga clic aquí para enviar un correo electrónico"
+                                href="mailto:<?php echo $emailContato ?>"><i
+                                    class="fa-solid fa-envelope"></i><?php echo $emailContato ?></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 list-1">
-          <h3>NAVEGAR POR</h3>
-          <ul>
-            <li><a title="Haga clic aquí para ser dirigido al principio" href="#section-one"><i
-                  class="fa-solid fa-chevron-right"></i>COMENZAR</a></li>
-            <li><a title="Haga clic aquí para ser dirigido a la sección ACERCA DE" href="#section-two"><i
-                  class="fa-solid fa-chevron-right"></i>EN</a></li>
-            <li><a title="Haga clic aquí para ser dirigido a la sección ACERCA DE" href="#section-three"><i
-                  class="fa-solid fa-chevron-right"></i>EL TEQUILA</a></li>
-            <li><a title="Haga clic aquí para ser dirigido a la sesión de COCTELERÍA Y RECETAS" href="#section-four"><i
-                  class="fa-solid fa-chevron-right"></i>MIXOLOGÍA Y RECETAS</a></li>
-            <li><a title="Haga clic aquí para ser dirigido a la sesión de COCTELERÍA Y RECETAS" href="#section-five"><i
-                  class="fa-solid fa-chevron-right"></i>DÓNDE COMPRAR</a></li>
-            <li><a title="Haga clic aquí para ser dirigido a la sesión de CONTACTO" href="#section-six"><i
-                  class="fa-solid fa-chevron-right"></i>CONTACTO</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 list-1">
-          <h3>CONTACTO</h3>
-          <ul>
-            <li><a title="Haga clic aquí para contactarnos vía WhatsApp"
-                href="<?php echo $info[1]['link_wpp']?>"><i
-                  class="fa-brands fa-whatsapp"></i><?php echo $info[1]['whatsapp']?></a></li>
-            <li><a title="Haga clic aquí para ser dirigido a Instagram"
-                href="<?php echo $instagram?>"><i
-                  class="fa-brands fa-instagram"></i><?php echo $user_instagram?></a></li>
-            <li><a title="Haga clic aquí para enviar un correo electrónico"
-                href="mailto:<?php echo $emailContato?>"><i
-                  class="fa-solid fa-envelope"></i><?php echo $emailContato?></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
@@ -281,7 +342,7 @@ include "settings/settings.php";
             header.addEventListener('click', () => {
                 const content = header.nextElementSibling;
                 const isOpen = content.style.maxHeight;
-                
+
                 document.querySelectorAll('.accordion-content').forEach(item => {
                     item.style.maxHeight = null;
                     item.style.paddingTop = '0';
@@ -290,7 +351,7 @@ include "settings/settings.php";
                 document.querySelectorAll('.accordion-header').forEach(item => {
                     item.classList.remove('active');
                 });
-                
+
                 if (!isOpen) {
                     content.style.maxHeight = content.scrollHeight + 'px';
                     content.style.paddingTop = '10px';
