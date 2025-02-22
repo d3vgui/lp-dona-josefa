@@ -9,20 +9,20 @@ include "settings/settings.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo htmlspecialchars($description); ?>">
-    <link rel="stylesheet" href="../<?php echo $url?>/styles/settings.css">
+    <link rel="stylesheet" href="../styles/settings.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../<?php echo $url ?>/styles/index.css">
-    <link rel="stylesheet" href="../<?php echo $url ?>/styles/media.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/media.css">
     <link rel="icon" type="image/x-icon" href="../<?php echo $url?>/images/favicon.ico">
-    <script src="../<?php echo $url ?>/js/menu.js" defer></script>
-    <script src="../<?php echo $url ?>/js/header.js" defer></script>
+    <script src="../js/menu.js" defer></script>
+    <script src="../js/header.js" defer></script>
     <title><?php echo $nome_empresa . ' - ' . $slogan ?></title>
 </head>
 
 <body>
     <header>
-        <a id="logo" title="Logo" href="#section-one"><img title="Logo" class="img-responsive" src="../<?php echo $url ?><?php echo $logo_cliente ?>" alt="Logo"></a>
+        <a id="logo" title="Logo" href="#section-one"><img title="Logo" class="img-responsive" src="..<?php echo $logo_cliente ?>" alt="Logo"></a>
         <nav id="nav">
             <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
                 <span id="hamburger"></span>
@@ -67,7 +67,7 @@ include "settings/settings.php";
                 <div class="content-sec-two">
                     <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
                         <div class="content-left">
-                            <img class="img-responsive" src="../<?php echo $url ?>/images/logo-1-branco.png" alt="Logo" title="Logo">
+                            <img class="img-responsive" src="../images/logo-1-branco.png" alt="Logo" title="Logo">
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
@@ -132,7 +132,7 @@ include "settings/settings.php";
                     <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                         <div class="content-right">
-                            <img class="img-responsive" src="../<?php echo $url ?>/images/tequila.png" alt="Tequila" title="Tequila">
+                            <img class="img-responsive" src="../images/tequila.png" alt="Tequila" title="Tequila">
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ include "settings/settings.php";
                 <div class="content-sec-four">
                     <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
                         <div class="content-left">
-                            <img class="img-responsive" src="../<?php echo $url ?>/images/shot-tequila.png" alt="Tequila" title="Tequila">
+                            <img class="img-responsive" src="../images/shot-tequila.png" alt="Tequila" title="Tequila">
                         </div>
                     </div>
                     <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
@@ -299,7 +299,7 @@ include "settings/settings.php";
                 <div class="col-lg-4 col-md-2 col-sm-12 col-xs-12">
                     <div class="logo-footer">
                         <a href="#section-one" title="Clique aqui para voltar ao início"><img class="img-responsive"
-                                src="../<?php echo $url ?>/images/logo-branco.png" alt="Logo" title="Clique aqui para voltar ao início"></a>
+                                src="../images/logo-branco.png" alt="Logo" title="Clique aqui para voltar ao início"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 list-1">
